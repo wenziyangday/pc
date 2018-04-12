@@ -1,0 +1,651 @@
+.column-second {
+  padding: 50px 0 15px;
+  text-align: center;
+}
+.column-second ul {
+  display: inline-block;
+  border-radius: 54px;
+  border: 1px solid #cfcece;
+  overflow: hidden;
+}
+.column-second ul li {
+  display: inline-block;
+  padding: 0 50px;
+  line-height: 52px;
+  border-right: 1px solid #cfcece;
+  font-size: 21px;
+}
+.column-second ul li:hover,
+.column-second ul li.active {
+  background: #ee7d42;
+}
+.column-second ul li:hover a,
+.column-second ul li.active a {
+  color: #fff;
+}
+.column-second ul li:last-child {
+  border-right: 0;
+}
+.news-pic-list li {
+  padding: 35px 0;
+  border-bottom: 1px solid #cfcece;
+}
+.news-pic-list li:last-child {
+  border-bottom: 0;
+}
+.news-pic-list .pic-news {
+  float: left;
+  margin-right: 48px;
+}
+.news-pic-list .content-pic-news {
+  position: relative;
+  float: right;
+  width: 920px;
+  height: 260px;
+}
+.news-pic-list .content-pic-news .title-pic-news {
+  font-size: 21px;
+}
+.news-pic-list .content-pic-news .time-pic-news {
+  padding: 18px 0 25px;
+  font-size: 18px;
+  color: #a3a3a3;
+}
+.news-pic-list .content-pic-news .content-pic-news {
+  font-size: 17px;
+  line-height: 1.6;
+}
+.news-pic-list .content-pic-news .link-pic-news {
+  position: absolute;
+  bottom: 0;
+}
+.title-detail {
+  text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #cfcece;
+}
+.title-detail .title-detail-article {
+  font-size: 21px;
+  padding: 30px 0 20px;
+  line-height: 1;
+}
+.title-detail .relative-title-detail {
+  line-height: 34px;
+}
+.title-detail .relative-title-detail img {
+  vertical-align: middle;
+}
+.article {
+  margin-top: 30px;
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 20px;
+}
+.prev-next {
+  padding-top: 67px;
+  border-bottom: 1px solid #cfcece;
+  margin-bottom: 84px !important;
+}
+.prev-next div {
+  float: left;
+  width: 50%;
+  line-height: 103px;
+  font-size: 19px;
+}
+.prev-next div:hover,
+.prev-next div.active {
+  background: #c79936;
+  color: #fff;
+}
+.prev-next div:hover a,
+.prev-next div.active a {
+  color: #fff;
+}
+.prev-next div .iconfont {
+  position: relative;
+  top: 8px;
+  font-size: 35px;
+}
+.contact-us {
+  padding-bottom: 50px;
+}
+.four-info-contact {
+  padding-top: 47px;
+}
+.four-info-contact > div {
+  float: left;
+  width: 324px;
+  height: 370px;
+  border-right: 1px solid #f6f6f6;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.four-info-contact > div h2 {
+  margin-top: 90px;
+  height: 100px;
+}
+.four-info-contact > div .square {
+  display: inline-block;
+  width: 197px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  border: 1px dashed #fff;
+  margin-bottom: 20px;
+}
+.four-info-contact > div.li-connect-1 {
+  background: url("../images/bg-connect-1.png") top center no-repeat;
+}
+.four-info-contact > div.li-connect-2 {
+  background: url("../images/bg-connect-2.png") top center no-repeat;
+}
+.four-info-contact > div.li-connect-2 .content-connect {
+  font-size: 29px;
+}
+.four-info-contact > div.li-connect-3 {
+  background: url("../images/bg-connect-3.png") top center no-repeat;
+}
+.four-info-contact > div.li-connect-4 {
+  background: url("../images/bg-connect-4.png") top center no-repeat;
+}
+.connect-map {
+  padding-top: 40px;
+  text-align: center;
+  line-height: 1;
+  font-size: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 50px;
+}
+.connect-map .line {
+  position: relative;
+  top: 17px;
+  width: 85px;
+  height: 3px;
+  background: #c79a36;
+  margin: 0 auto;
+}
+.map-container {
+  width: 1290px !important;
+  height: 480px;
+  border: 5px solid #c79a36;
+}
+.sidebar-about-us {
+  box-shadow: 0 0 5px 5px #f6f6f6;
+  line-height: 86px;
+  font-size: 20px;
+}
+.sidebar-about-us li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.sidebar-about-us li a {
+  display: inline-block;
+  padding: 0 16px;
+}
+.sidebar-about-us li:hover a,
+.sidebar-about-us li.active a {
+  color: #fff;
+  background: #c79a36;
+}
+.intro-about-us {
+  padding: 77px 0 0;
+  background: #f6f6f6;
+}
+.intro-about-us .wrap {
+  height: 674px;
+  overflow: hidden;
+  background: #fff;
+}
+.intro-about-us .wrap h2 {
+  float: right;
+}
+.intro-about-us .wrap .content-about {
+  float: left;
+  width: 627px;
+  padding: 38px 50px 0;
+}
+.intro-about-us .wrap .content-about .title-about {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 48px;
+  color: #c79a36;
+}
+.intro-about-us .wrap .content-about div {
+  text-indent: 2em;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.advantage-group {
+  background: #f6f6f6;
+}
+.advantage-group .five-advantage-group > div {
+  float: left;
+  width: 16%;
+  min-height: 500px;
+  padding: 0 2%;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+}
+.advantage-group .five-advantage-group > div h2 {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  margin: 80px auto 33px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.advantage-group .five-advantage-group > div h2 img {
+  vertical-align: middle;
+}
+.advantage-group .five-advantage-group > div .content-fdg {
+  margin-top: 25px;
+  text-align: justify;
+  line-height: 1.5;
+}
+.advantage-group .five-advantage-group > div.fdg-1 {
+  background: url("../images/bg-fdg-1.png") top center no-repeat;
+  background-size: cover;
+}
+.advantage-group .five-advantage-group > div.fdg-2 {
+  background: url("../images/bg-fdg-2.png") top center no-repeat;
+  background-size: cover;
+}
+.advantage-group .five-advantage-group > div.fdg-3 {
+  background: url("../images/bg-fdg-3.png") top center no-repeat;
+  background-size: cover;
+}
+.advantage-group .five-advantage-group > div.fdg-4 {
+  background: url("../images/bg-fdg-4.png") top center no-repeat;
+  background-size: cover;
+}
+.advantage-group .five-advantage-group > div.fdg-5 {
+  background: url("../images/bg-fdg-5.png") top center no-repeat;
+  background-size: cover;
+}
+.short-intro-company {
+  text-align: center;
+  font-size: 19px;
+}
+.short-intro-company b {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.short-intro-company div {
+  line-height: 1.5;
+}
+.content-compnay {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.content-compnay h2 {
+  float: left;
+}
+.content-compnay .list-content {
+  float: right;
+  width: 648px;
+}
+.content-compnay .list-content span {
+  display: block;
+  padding: 6px 0 5px;
+  font-size: 25px;
+  color: #000;
+}
+.content-compnay .list-content div {
+  font-size: 19px;
+  color: #7c7c7c;
+}
+.team-work {
+  padding-bottom: 50px;
+  background: #f6f6f6;
+}
+.team-work .list-teamwork {
+  margin-top: 70px;
+}
+.team-work .list-teamwork li {
+  position: relative;
+  float: left;
+  width: 413px;
+  margin-right: 20px;
+  overflow: hidden;
+  z-index: 0;
+}
+.team-work .list-teamwork li .content-team {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  z-index: 99;
+}
+.team-work .list-teamwork li .content-team span {
+  display: block;
+  padding: 5px 10px;
+  font-size: 19px;
+}
+.team-work .list-teamwork li .content-team div {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+.team-work .list-teamwork:last-child {
+  margin-right: 0;
+}
+.team-face {
+  margin-bottom: 50px;
+}
+.prI-title {
+  position: relative;
+  left: 50%;
+  width: 660px;
+  margin-left: -317px;
+  padding-top: 26px;
+  text-align: center;
+}
+.prI-title h2 {
+  font-size: 76px;
+  line-height: 1;
+  color: #c28c2a;
+}
+.prI-title div {
+  margin-top: 20px;
+  font-size: 35px;
+  line-height: 61px;
+  border: 1px solid #bdbfc3;
+  border-right: 0;
+  border-left: 0;
+}
+.product-intro {
+  margin-bottom: 50px;
+}
+.pay-list {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.pay-list > div {
+  float: left;
+  width: 310px;
+  height: 415px;
+  margin-right: 15px;
+  text-align: center;
+  color: #fff;
+}
+.pay-list > div h2 {
+  margin-top: 45px;
+  margin-bottom: 33px;
+  font-size: 38px;
+  line-height: 1;
+}
+.pay-list > div h3 {
+  width: 139px;
+  height: 139px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 139px;
+  background: #fff;
+  border-radius: 50%;
+}
+.pay-list > div h3 img {
+  vertical-align: middle;
+}
+.pay-list > div div {
+  margin-top: 30px;
+  font-size: 21px;
+}
+.pay-list > div:hover img {
+  transform: rotateY(360deg);
+  transition: ease-in-out 1s;
+}
+.pay-list:last-child {
+  margin-right: 0;
+}
+.pay-list .pl-1,
+.pay-list .pl-3 {
+  background: #c28c2a;
+}
+.pay-list .pl-2,
+.pay-list .pl-4 {
+  background: #000;
+}
+.link-pro {
+  text-align: center;
+}
+.link-pro a {
+  display: inline-block;
+  padding: 0 50px;
+  font-size: 28px;
+  color: #fff;
+  line-height: 64px;
+}
+.link-pro a span {
+  display: block;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+}
+.advantage-pro {
+  padding-bottom: 50px;
+  background: #f6f6f6;
+}
+.switch-dd {
+  margin-top: 42px;
+}
+.left-control {
+  float: left;
+}
+.left-control ul {
+  padding-top: 30px;
+}
+.left-control li {
+  width: 329px;
+  height: 81px;
+  margin-bottom: 57px;
+  line-height: 81px;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  background: url("../images/span.png") top center no-repeat;
+}
+.left-control li:hover,
+.left-control li.active {
+  cursor: pointer;
+  background: url("../images/span-hover.png") top center no-repeat;
+}
+.right-target {
+  float: right;
+  width: 955px;
+  padding: 7px;
+  border: 1px solid #a1a1a1;
+  margin-bottom: 50px;
+}
+.right-target > div {
+  display: none;
+  height: 534px;
+}
+.right-target > div img {
+  width: 100%;
+}
+.right-target .active {
+  display: block;
+}
+.ques-pro {
+  background: #f6f6f6;
+}
+.ques-pro .ques-info {
+  padding: 50px 0;
+}
+.ques-pro .ques-info .left-qi {
+  position: relative;
+  float: left;
+  width: 542px;
+  height: 434px;
+  overflow: hidden;
+}
+.ques-pro .ques-info .left-qi .contr {
+  position: absolute;
+  bottom: -3px;
+  margin-left: 356px;
+  z-index: 99;
+}
+.ques-pro .ques-info .left-qi .contr a {
+  cursor: pointer;
+}
+.ques-pro .ques-info .left-qi .swiper-slide:hover {
+  transform: scale(1.2);
+  transition: ease-in 1s;
+}
+.ques-pro .ques-info .right-qi {
+  float: right;
+  width: 730px;
+}
+.ques-pro .ques-info .right-qi li {
+  margin-bottom: 40px;
+}
+.ques-pro .ques-info .right-qi h2 {
+  float: left;
+}
+.ques-pro .ques-info .right-qi .content-rq {
+  float: right;
+  width: 550px;
+}
+.ques-pro .ques-info .right-qi .content-rq h3 {
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+.ques-pro .ques-info .right-qi .content-rq div {
+  font-size: 18px;
+}
+.ques-pro .ques-info .right-qi .content-rq a.link-a {
+  display: inline-block;
+  font-size: 25px;
+}
+.trade-advantage {
+  margin-bottom: 50px;
+}
+.tipss {
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 53px;
+  font-size: 26px;
+}
+.tipss img {
+  vertical-align: middle;
+}
+.case-join {
+  margin-bottom: 50px;
+}
+.probxy-process {
+  padding-bottom: 50px;
+  background: #f6f6f6;
+}
+.probxy-process .word-prox span {
+  display: inline-block;
+  width: 150px;
+  height: 34px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 27px;
+}
+.advantge-trade {
+  margin-bottom: 50px;
+}
+.advantge-trade .left-at {
+  float: left;
+  width: 843px;
+}
+.advantge-trade .left-at li {
+  position: relative;
+  float: left;
+  width: 420px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+.advantge-trade .left-at li div {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  z-index: 99;
+  line-height: 67px;
+  background: #c28c2a;
+}
+.advantge-trade .right-at {
+  position: relative;
+  float: right;
+  width: 455px;
+  height: 616px;
+  left: -2px;
+  border: 1px solid #ccc;
+}
+.advantge-trade .right-at li {
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+}
+.advantge-trade .right-at li h2 {
+  float: left;
+  width: 124px;
+  text-align: center;
+  line-height: 144px;
+}
+.advantge-trade .right-at li h2 img {
+  vertical-align: middle;
+}
+.advantge-trade .right-at li div {
+  float: right;
+  width: 310px;
+  margin-right: 20px;
+  text-align: justify;
+}
+.advantge-trade .right-at li div h3 {
+  margin-bottom: 20px;
+  color: #c28c2a;
+  font-size: 34px;
+}
+.advantge-trade .right-at li div p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.advantge-trade .right-at li:last-child {
+  border-bottom: 0;
+}
+.anlysis-trade {
+  padding-bottom: 10px;
+  background: #f6f6f6;
+}
+.anlysis-trade .left-atr {
+  float: left;
+}
+.anlysis-trade .right-atr {
+  float: right;
+  width: 703px;
+  text-align: justify;
+}
+.anlysis-trade .right-atr h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #c28c2a;
+  line-height: 1;
+  margin-bottom: 36px;
+}
+.anlysis-trade .right-atr div {
+  text-indent: 2em;
+  font-size: 21px;
+  color: #333;
+  line-height: 1.7;
+}
+.page {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.page span {
+  display: inline-block;
+  padding: 5px;
+}
+.page span.active {
+  background: #c28c2a;
+  color: #fff;
+}

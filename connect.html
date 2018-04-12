@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联系我们</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/inside.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="header">
+		<div class="wrap clearfix">
+			<div class="logo"><img src="images/logo.png" width="166" height="60" alt=""></div>
+			<div class="nav">
+				<ul class="clearfix">
+					<li class="active"><a href="">网站首页</a></li>
+					<li><a href="">产品介绍</a></li>
+					<li><a href="">卡友代理</a></li>
+					<li><a href="">关于我们</a></li>
+					<li><a href="">新闻资讯</a></li>
+					<li><a href="">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"
+						style="background: url(images/banner.jpg) center no-repeat; background-size: cover;"></div>
+				<div class="swiper-slide"
+						style="background: url(images/banner1.jpg) center no-repeat; background-size: cover;"></div>
+				<div class="swiper-slide"
+						style="background: url(images/banner2.jpg) center no-repeat; background-size: cover;"></div>
+				<div class="swiper-slide"
+						style="background: url(images/banner.jpg) center no-repeat; background-size: cover;"></div>
+				<div class="swiper-slide"
+						style="background: url(images/banner.jpg) center no-repeat; background-size: cover;"></div>
+				<div class="swiper-slide"
+						style="background: url(images/banner.jpg) center no-repeat; background-size: cover;"></div>
+				<div class="swiper-slide"
+						style="background: url(images/banner.jpg) center no-repeat; background-size: cover;"></div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<div class="container" style="background: #f6f6f6;">
+		<div class="contact-us">
+			<div class="wrap">
+				<div class="four-info-contact clearfix">
+					<div class="li-connect-1">
+						<h2><img src="images/connect-1.png" alt=""></h2>
+						<div class="square">公司地址</div>
+						<div class="content-connect">
+							安徽省合肥市信地城市广场5栋<br>1622室
+						</div>
+					</div>
+					<div class="li-connect-2">
+						<h2><img src="images/connect-2.png" alt=""></h2>
+						<div class="square">联系方式</div>
+						<div class="content-connect">
+							159-5698-6040<br>
+							182-5506-4886
+						</div>
+					</div>
+					<div class="li-connect-3">
+						<h2><img src="images/connect-3.png" alt=""></h2>
+						<div class="square">在线咨询</div>
+						<div class="content-connect">
+							高品质的在线咨询，即时咨询在<br>线招商经理，为您解答所有疑惑
+						</div>
+					</div>
+					<div class="li-connect-4">
+						<h2><img src="images/connect-4.png" alt=""></h2>
+						<div class="square">招商政策</div>
+						<div class="content-connect">
+							高分润、高返现、0风险 最高返<br>现170元，合作共赢
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="connect-map">
+				<div class="title-map">百度地图</div>
+				<div class="line"></div>
+			</div>
+			<div class="wrap map-container">
+				<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+				<html xmlns="http://www.w3.org/1999/xhtml">
+				<head>
+					<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+					<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+					<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+					<title>百度地图API自定义地图</title>
+					<!--引用百度地图API-->
+					<style type="text/css">
+						html,body{margin:0;padding:0;}
+						.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+						.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+					</style>
+					<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+				</head>
+
+				<body>
+				<!--百度地图容器-->
+				<div style="width:100%;height:480px;" id="dituContent"></div>
+				</body>
+				<script type="text/javascript">
+                    //创建和初始化地图函数：
+                    function initMap(){
+                        createMap();//创建地图
+                        setMapEvent();//设置地图事件
+                        addMapControl();//向地图添加控件
+                    }
+
+                    //创建地图函数：
+                    function createMap(){
+                        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+                        var point = new BMap.Point(117.326001,31.883683);//定义一个中心点坐标
+                        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+                        window.map = map;//将map变量存储在全局
+                    }
+
+                    //地图事件设置函数：
+                    function setMapEvent(){
+                        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+                        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+                        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+                        map.enableKeyboard();//启用键盘上下左右键移动地图
+                    }
+
+                    //地图控件添加函数：
+                    function addMapControl(){
+                        //向地图中添加缩放控件
+                        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+                        map.addControl(ctrl_nav);
+                        //向地图中添加缩略图控件
+                        var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+                        map.addControl(ctrl_ove);
+                        //向地图中添加比例尺控件
+                        var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+                        map.addControl(ctrl_sca);
+                    }
+
+
+                    initMap();//创建和初始化地图
+				</script>
+				</html>
+			</div>
+		</div>
+
+
+	</div>
+	<div class="footer">
+		<div class="wrap clearfix">
+			<div class="left-footer">
+				<h2><img src="images/logo-foot.png" alt=""></h2>
+				<div class="title-footer">卡友友刷全国运营中心</div>
+				<div class="tel-footer">
+					15956986040 | 18255064886
+				</div>
+				<div class="code-footer">
+					<img src="images/code.png" width="172" height="163" alt="">&emsp;&emsp; <img src="images/code.png"
+						width="172" height="163" alt="">
+				</div>
+			</div>
+			<div class="right-footer">
+				<form action="">
+					<div class="two-input">
+						<input type="text" name="" placeholder="请输入您的名字"><input type="text" name=""
+							placeholder="您的手机号码">
+					</div>
+					<div class="title-checkbox">您想要咨询的问题？</div>
+					<div class="two-checkbox clearfix">
+						<div><input type="checkbox" name="" placeholder=""> <span>我想要做代理</span></div>
+						<div><input type="checkbox" name="" placeholder=""> <span>可以个人使用吗</span>？</div>
+					</div>
+					<div class="two-checkbox clearfix">
+						<div><input type="checkbox" name="" placeholder=""> <span>政策是什么给</span>？</div>
+						<div><input type="checkbox" name="" placeholder=""> <span>其他</span></div>
+					</div>
+					<div class="single-input">
+						<input type="text" name="" placeholder="请输入您想要咨询的内容">
+					</div>
+					<div class="two-button">
+						<input type="submit" value="提交问题，我们为你解答"> <a href="">立即咨询为您解答</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        speed: 2000,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+            waitForTransition: false,
+        },
+    });
+
+    $('.swiper-slide').hover(function () {
+        mySwiper.autoplay.stop();
+    }, function () {
+        mySwiper.autoplay.start();
+    });
+
+    $('.control-news span').on('click', function () {
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.target-news div[data-name="' + $(this).attr('data-name') + '"]').removeClass('hide').siblings().addClass('hide');
+    });
+    new Swiper('.partner-swiper', {
+        slidesPerView: 5,
+        slidesPerColumn: 2,
+        spaceBetween: 30,
+        pagination: {
+            el: '.partner-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-next',
+            prevEl: '.swiper-prev',
+        },
+    });
+    new Swiper('.cases-swiper', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: '.swiper-next',
+            prevEl: '.swiper-prev',
+        },
+    });
+</script>
+</body>
+</html>

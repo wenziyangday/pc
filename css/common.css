@@ -1,0 +1,141 @@
+.wrapper {
+  width: 100%;
+}
+.wrapper .wrap {
+  width: 1300px;
+  margin: 0 auto;
+}
+.wrapper .header {
+  height: 90px;
+  line-height: 90px;
+}
+.wrapper .header .logo {
+  float: left;
+}
+.wrapper .header .logo img {
+  vertical-align: middle;
+}
+.wrapper .header .nav {
+  float: right;
+}
+.wrapper .header .nav li {
+  float: left;
+  padding-left: 45px;
+  font-size: 21px;
+}
+.wrapper .header .nav li:hover a,
+.wrapper .header .nav .active a {
+  color: #ff4a00;
+}
+.wrapper .banner {
+  height: 797px;
+}
+.wrapper .banner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .banner .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+/* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.wrapper .footer {
+  padding: 23px 0;
+  background: #202020;
+}
+.wrapper .footer .left-footer {
+  float: left;
+}
+.wrapper .footer .left-footer .title-footer {
+  padding: 20px 0;
+  font-size: 28px;
+  color: #fff;
+  line-height: 1;
+}
+.wrapper .footer .left-footer .tel-footer {
+  padding-bottom: 30px;
+  line-height: 1;
+  font-family: Impact;
+  font-size: 38px;
+  color: #f60;
+}
+.wrapper .footer .right-footer {
+  float: right;
+  padding: 16px 49px 39px 35px;
+  background: #2f2f2f;
+}
+.wrapper .footer .right-footer input {
+  display: inline-block;
+  border: 0;
+  outline: none;
+  background: #fff;
+  height: 52px;
+  padding: 0 20px;
+}
+.wrapper .footer .right-footer .two-input input {
+  width: 225px;
+}
+.wrapper .footer .right-footer .two-input input:first-child {
+  margin-right: 40px;
+}
+.wrapper .footer .right-footer .title-checkbox {
+  padding: 24px 0 0 0;
+  line-height: 1;
+  font-size: 19px;
+  color: #fff;
+}
+.wrapper .footer .right-footer .two-checkbox div {
+  float: left;
+  width: 200px;
+  font-size: 17px;
+  color: #fff;
+  line-height: 52px;
+}
+.wrapper .footer .right-footer .two-checkbox div input {
+  display: block;
+  float: left;
+  margin-right: 8px;
+}
+.wrapper .footer .right-footer .single-input {
+  margin-bottom: 23px;
+}
+.wrapper .footer .right-footer .single-input input {
+  width: 530px;
+}
+.wrapper .footer .right-footer .two-button input {
+  width: 265px;
+  font-size: 21px;
+  color: #fff;
+  background: #f60;
+}
+.wrapper .footer .right-footer .two-button a {
+  display: inline-block;
+  width: 265px;
+  height: 52px;
+  margin-left: 15px;
+  line-height: 52px;
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  background: #ff0012;
+}
+.endss {
+  background: #0c0c0c;
+  color: #fff;
+  line-height: 55px;
+  height: 55px;
+  text-align: center;
+}
